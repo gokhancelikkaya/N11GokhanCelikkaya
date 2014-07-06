@@ -53,7 +53,6 @@ function addCustomer() {
 				$('#table').append(tr);
 
 				$("#table").find("td.dataTables_empty").parent().remove();
-				$("#table").dataTable().fnSort([ [ 0, 'asc' ] ]);
 
 				createDialog.dialog("close");
 			}
@@ -81,8 +80,6 @@ function updateCustomer(data, tr) {
 				tr.find("td.fname").text(response.customer.firstName);
 				tr.find("td.lname").text(response.customer.lastName);
 				tr.find("td.phone").text(response.customer.phone);
-
-				$("#table").dataTable().fnSort([ [ 0, 'asc' ] ]);
 
 				editDialog.dialog("close");
 			}
@@ -148,8 +145,6 @@ function deleteCustomer(data) {
 			} else if (response.status == "OK") {
 				$("#table a.delete[customerId='" + data.id + "']").parent()
 						.parent().remove();
-
-				$("#table").dataTable().fnSort([ [ 0, 'asc' ] ]);
 
 				deleteDialog.dialog("close");
 			}
