@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Class-Path: spring-core-3.2.3.RELEASE.jar commons-logging-1.1.1.jar js
+ tl-1.2.jar spring-web-3.2.3.RELEASE.jar aopalliance-1.0.jar spring-ao
+ p-3.2.3.RELEASE.jar spring-beans-3.2.3.RELEASE.jar spring-context-3.2
+ .3.RELEASE.jar spring-expression-3.2.3.RELEASE.jar spring-webmvc-3.2.
+ 3.RELEASE.jar spring-orm-3.2.0.RELEASE.jar spring-jdbc-3.2.0.RELEASE.
+ jar spring-tx-3.2.0.RELEASE.jar spring-data-mongodb-1.2.0.RELEASE.jar
+  spring-data-commons-1.5.0.RELEASE.jar slf4j-api-1.7.1.jar jcl-over-s
+ lf4j-1.7.1.jar mongo-java-driver-2.10.1.jar httpclient-4.2.2.jar http
+ core-4.2.2.jar commons-codec-1.6.jar gson-2.2.2.jar log4j-1.2.17.jar 
+ jackson-core-asl-1.9.9.jar jackson-mapper-asl-1.9.9.jar jackson-jaxrs
+ -1.9.9.jar hibernate-validator-4.2.0.Final.jar validation-api-1.0.0.G
+ A.jar javax.servlet-api-3.1.0.jar
+
